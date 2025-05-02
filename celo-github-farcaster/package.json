@@ -1,0 +1,38 @@
+{
+  "name": "celo-github",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "biome check src",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@farcaster/frame-sdk": "latest",
+    "@farcaster/frame-wagmi-connector": "latest",
+    "@rainbow-me/rainbowkit": "^2.2.4",
+    "@tanstack/react-query": "5.45.1",
+    "axios": "^1.9.0",
+    "chart.js": "^4.4.9",
+    "dotenv": "^16.5.0",
+    "ethers": "^6.13.7",
+    "next": "^15.3.1",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.3.1",
+    "viem": "^2.28.2",
+    "wagmi": "^2.15.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.0",
+    "@types/node": "^22.15.3",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@wagmi/cli": "latest",
+    "typescript": "^5.8.3",
+    "vite": "^5.2.11"
+  }
+}
